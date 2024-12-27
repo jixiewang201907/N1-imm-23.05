@@ -1,3 +1,17 @@
+#  …or create a new repository on the command line
+echo "# N1-R" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jixiewang201907/N1-R.git
+git push -u origin main
+
+#  …or push an existing repository from the command line
+git remote add origin https://github.com/jixiewang201907/N1-R.git
+git branch -M main
+git push -u origin main
+------------------------------------------------------------------------------------------------------------------
 问题：git  clone  下载代码一直报错误
 Cloning into 'aplanmis-project'...
 remote: Enumerating objects: 176887, done.
