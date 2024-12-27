@@ -1,1 +1,18 @@
-read
+问题：git  clone  下载代码一直报错误
+Cloning into 'aplanmis-project'...
+remote: Enumerating objects: 176887, done.
+remote: Counting objects: 100% (176887/176887), done.
+remote: Compressing objects: 100% (75181/75181), done.
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+fatal: the remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+
+# 把缓存区大小设置大点：根据项目的具体情况来设置缓冲区大小
+git config --global http.postBuffer 524288000 　　　　# 2GB
+git config --global http.postBuffer 2097152000　　      # 2GB
+git config --global http.postBuffer 3194304000 　　    # 3GB
+ 
+# 执行上面命令如果依旧clone失败，考虑可能原因2：网络下载速度缓慢
+git config --global http.lowSpeedLimit 0
+git config --global http.lowSpeedTime 999999
