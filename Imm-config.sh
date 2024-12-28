@@ -56,7 +56,7 @@ CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
 CONFIG_PACKAGE_luci-app-argon-config=y
-CONFIG_PACKAGE_luci-theme-argon=y
+#CONFIG_PACKAGE_luci-theme-argon=y
 
 # other packages
 CONFIG_PACKAGE_autocore=y
