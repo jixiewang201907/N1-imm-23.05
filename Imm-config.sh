@@ -143,6 +143,7 @@ CONFIG_PACKAGE_luci-i18n-bypass-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-passwall-zh-cn is not set
 CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn is not set
+CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-unblockmusic-zh-cn is not set
