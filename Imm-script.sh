@@ -27,11 +27,11 @@ wget -q -cp files/usr/share/v2ray https://github.com/Loyalsoldier/v2ray-rules-da
 #git clone https://github.com/jixiewang201907/by-pass.git package/by-pass
 
 # Add luci-app-smartdns
-#git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
-#git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
 
 # Add luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
