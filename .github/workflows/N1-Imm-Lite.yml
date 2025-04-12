@@ -126,7 +126,7 @@ jobs:
         WHOAMI: CHH
 
     - name: Create release
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@main
       with:
         tag: OpenWrt_s905d_${{ env.PACKAGED_OUTPUTDATE }}
         name: N1-OpenWrt | ${{ env.DATE }}
