@@ -32,7 +32,7 @@ git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/application
 
 # Add luci-app-adguardhome
 git clone https://github.com/AdguardTeam/AdGuardHome.git feeds/packages/net/AdGuardHome
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
