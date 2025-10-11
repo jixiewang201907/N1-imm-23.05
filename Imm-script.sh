@@ -31,6 +31,7 @@ git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smar
 git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
 
 # Add luci-app-adguardhome
+#git clone https://github.com/AdguardTeam/AdGuardHome.git feeds/packages/net/AdGuardHome
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 ./scripts/feeds update -a
